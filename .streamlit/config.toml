@@ -1,0 +1,21 @@
+[server]
+# Bind address and default port (CLI args can override)
+address = "0.0.0.0"
+port = 8501
+enableCORS = true
+enableXsrfProtection = true
+# Ensure local dev auto-opens a browser tab
+headless = false
+
+[browser]
+gatherUsageStats = false
+# When binding to 0.0.0.0, open tab pointing to localhost
+serverAddress = "localhost"
+
+[theme]
+primaryColor = "#00B4D8"
+backgroundColor = "#F6F9FC"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1F2937"
+font = "sans serif"
+

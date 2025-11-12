@@ -1,0 +1,32 @@
+========================================
+PDF Table Extractor - Access URLs
+========================================
+
+Your server is running! Use one of these URLs:
+
+FOR THIS PC (Server):
+  http://localhost:8501
+
+FOR OTHER PCs ON YOUR NETWORK:
+  Based on your detected IP addresses, try:
+  
+  Primary Network (most likely):
+    http://192.168.10.119:8501
+  
+  Alternative Network:
+    http://192.168.18.99:8501
+  
+  (Avoid 192.168.56.1 - this is usually a virtual adapter)
+
+========================================
+TROUBLESHOOTING:
+========================================
+
+If other users can't connect:
+1. Make sure Windows Firewall allows Python/port 8501
+2. Try the other IP address (192.168.18.99)
+3. Verify all PCs are on the same network
+4. Check that the server is still running
+
+========================================
+
